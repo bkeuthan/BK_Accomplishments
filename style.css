@@ -31,7 +31,6 @@ a:hover {
 }
 
 @media print {
-  /* hide the download button when printing */
   #download-button {
     display: none;
   }
@@ -69,10 +68,10 @@ button:hover {
 }
 
 .logo {
-  width: 75px; /* set the width to 20 pixels */
-  height: auto; /* set the height to auto so that the aspect ratio is maintained */
-  display: block; /* make the image a block element so that margin and padding can be applied */
-  margin: 0 auto; /* center the image horizontally by setting left and right margin to auto */
+  width: 75px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
   position: absolute;
   top: 20;
   left: 20;
@@ -85,7 +84,7 @@ button:hover {
   display: block;
   margin: 0 auto;
   position: absolute;
-  top: 25px; /* adjust to move the element down */
+  top: 25px; 
   right: 0px;
   padding: 10px;
 }
@@ -116,7 +115,7 @@ button:hover {
 }
 
 .my-button:hover {
-  background-color: #81bdd8; /* Darken the background on hover */
+  background-color: #81bdd8; 
 }
 
 .response {
